@@ -43,45 +43,6 @@
 
 ## 📜 **版權**
 本專案基於 `MIT License`，自由開源！也歡迎所有人聯繫式語言模組 (`taiyu-programming-language`)
-### 🚀 C、C++、Python的台羅模組，純粹做好玩的，本人並非台羅使用者
-
----
-
-## 🛠️ **下載與使用**
-### **直接下載對應檔案**
-1.C語言請下載taiyu_c.h
-2.C++請下載taiyu_cpp.hpp
-3.Python請下載taiyu_py.py
-
----
-
-## 🔹 **C 台羅語法 (`taiyu_c.h`)**
-### **🔹 使用方式**
-1. **將 `taiyu_c.h` 加入你的 C 專案**。
-2. **在程式中包含標頭檔**：
-   ```c
-   #include "taiyu_c.h"
-   ```
-
----
-
-## 🔹 **C++ 台羅語法 (`taiyu_cpp.hpp`)**
-### **🔹 使用方式**
-1. **將 `taiyu_cpp.hpp` 加入你的 C++ 專案**。
-2. **在程式中包含標頭檔**：
-   ```cpp
-   #include "taiyu_cpp.hpp"
-   ```
-
----
-
-## 🔹 **Python 台羅語法 (`taiyu_py.py`)**
-### **🔹 使用方式**
-1. **將 `taiyu_py.py` 放入你的專案目錄**。
-2. **在 Python 程式中引用模組**：
-   ```python
-   from taiyu_py import *
-   ```
 
 ---
 
