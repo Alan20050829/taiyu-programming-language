@@ -1,6 +1,18 @@
 # 台羅程式語言對照表
 
-本對照表提供 C、C++、Python 三種語言的台羅語法對應，讓開發者可以快速查閱。
+## [回到 README](README.md)
+
+本對照表提供 **C、C++、Python** 三種語言的台羅語法對應，讓開發者可以快速查閱。
+
+---
+
+## 索引
+- [整合對照表](#整合對照表)
+- [Python 語法對照表](#python-語法對照表)
+- [C 語法對照表](#c-語法對照表)
+- [C++ 語法對照表](#cplusplus-語法對照表)
+- [使用方式](#使用方式)
+- [專案資訊](#專案資訊)
 
 ---
 
@@ -42,44 +54,44 @@
 | `printf` `cout` `print` | `su_tshut`         | C / C++ / Python       |
 | `scanf` `cin` `input`   | `su_jip`           | C / C++ / Python       |
 
-[回到頂部](#台羅程式語言對照表)
+[回到頂部](#索引)
 
 ---
 
-## Python 語法對照表 {#python-語法對照表}
+## Python 語法對照表
 
-以下僅列出 "適用語言" 欄位包含 Python 的語法：
+以下僅列出「適用語言」欄位包含 Python 的語法：
 
-| **標準語法**             | **台羅對應**      |
-|--------------------------|-------------------|
-| `if`                     | `nā`              |
-| `else if` / `elif`       | `nā_bô`           |
-| `else`                   | `bô`              |
-| `for`                    | `sûn_khuân`       |
-| `while`                  | `tng`             |
-| `break`                  | `thîng`           |
-| `continue`               | `kè_siòk`         |
-| `try-except-finally`     | `nā_si_bô_hó_tō`  |
-| `return`                 | `huê`             |
-| `class`                  | `tsióng`          | <!-- also C++ -->
-| `def`                    | `li_sī`           |
-| `int`                    | `tsê_thâu`        |
-| `float`                  | `sòo`             |
-| `double`                 | `tsún_sòo`        |
-| `char*` / `string`       | `jī`              |
-| `malloc`                 | `pun`             |
-| `true`                   | `tsin`            |
-| `false`                  | `ké`              |
-| `printf` `cout` `print` | `su_tshut`        | <!-- also C / C++ -->
-| `scanf` `cin` `input`   | `su_jip`          | <!-- also C / C++ -->
+| **標準語法**             | **台羅對應** |
+|--------------------------|--------------|
+| `if`                     | `nā`         |
+| `else if` / `elif`       | `nā_bô`      |
+| `else`                   | `bô`         |
+| `for`                    | `sûn_khuân`  |
+| `while`                  | `tng`        |
+| `break`                  | `thîng`      |
+| `continue`               | `kè_siòk`    |
+| `try-except-finally`     | `nā_si_bô_hó_tō` |
+| `return`                 | `huê`        |
+| `class`                  | `tsióng`     | <!-- also C++ -->
+| `def`                    | `li_sī`      |
+| `int`                    | `tsê_thâu`   |
+| `float`                  | `sòo`        |
+| `double`                 | `tsún_sòo`   |
+| `char*` / `string`       | `jī`         |
+| `malloc`                 | `pun`        |
+| `true`                   | `tsin`       |
+| `false`                  | `ké`         |
+| `printf` `cout` `print` | `su_tshut`   | <!-- also C / C++ -->
+| `scanf` `cin` `input`   | `su_jip`     | <!-- also C / C++ -->
 
-[回到頂部](#台羅程式語言對照表)
+[回到頂部](#索引) · [回到 README](README.md)
 
 ---
 
-## C 語法對照表 {#c-語法對照表}
+## C 語法對照表
 
-以下僅列出 "適用語言" 欄位包含 C 的語法：
+以下僅列出「適用語言」欄位包含 C 的語法：
 
 | **標準語法** | **台羅對應** |
 |--------------|--------------|
@@ -107,48 +119,48 @@
 | `printf`     | `su_tshut`   |
 | `scanf`      | `su_jip`     |
 
-[回到頂部](#台羅程式語言對照表)
+[回到頂部](#索引) · [回到 README](README.md)
 
 ---
 
-## C++ 語法對照表 {#cplusplus-語法對照表}
+## C++ 語法對照表
 
-以下僅列出 "適用語言" 欄位包含 C++ 的語法：
+以下僅列出「適用語言」欄位包含 C++ 的語法：
 
-| **標準語法**             | **台羅對應**      |
-|--------------------------|-------------------|
-| `if`                     | `nā`              |
-| `else if`                | `nā_bô`           |
-| `else`                   | `bô`              |
-| `switch`                 | `suán`            |
-| `case`                   | `hîng`            |
-| `default`                | `ī_siat`          |
-| `for`                    | `sûn_khuân`       |
-| `while`                  | `tng`             |
-| `break`                  | `thîng`           |
-| `continue`               | `kè_siòk`         |
-| `try`                    | `nā_si`           |
-| `catch`                  | `bô_hó`           |
-| `throw`                  | `tîng-tânn`       |
-| `return`                 | `huê`             |
-| `class`                  | `tsióng`          | <!-- also Python -->
-| `auto`                   | `tsū-tōng`        |
-| `void`                   | `khang`           | <!-- also C -->
-| `int`                    | `tsê_thâu`        |
-| `float`                  | `sòo`             |
-| `double`                 | `tsún_sòo`        |
-| `char*` / `string`       | `jī`              |
-| `vector`                 | `sò͘_tīn`         |
-| `map`                    | `tē_tôo`          |
-| `set`                    | `tsi̍p_hap`       |
-| `malloc`                 | `pun`             |
-| `free`                   | `kái`             |
-| `true`                   | `tsin`            |
-| `false`                  | `ké`              |
-| `printf` `cout` `print` | `su_tshut`        |
-| `scanf` `cin` `input`   | `su_jip`          |
+| **標準語法**             | **台羅對應** |
+|--------------------------|--------------|
+| `if`                     | `nā`         |
+| `else if`                | `nā_bô`      |
+| `else`                   | `bô`         |
+| `switch`                 | `suán`       |
+| `case`                   | `hîng`       |
+| `default`                | `ī_siat`     |
+| `for`                    | `sûn_khuân`  |
+| `while`                  | `tng`        |
+| `break`                  | `thîng`      |
+| `continue`               | `kè_siòk`    |
+| `try`                    | `nā_si`      |
+| `catch`                  | `bô_hó`      |
+| `throw`                  | `tîng-tânn`  |
+| `return`                 | `huê`        |
+| `class`                  | `tsióng`     | <!-- also Python -->
+| `auto`                   | `tsū-tōng`   |
+| `void`                   | `khang`      | <!-- also C -->
+| `int`                    | `tsê_thâu`   |
+| `float`                  | `sòo`        |
+| `double`                 | `tsún_sòo`   |
+| `char*` / `string`       | `jī`         |
+| `vector`                 | `sò͘_tīn`    |
+| `map`                    | `tē_tôo`     |
+| `set`                    | `tsi̍p_hap`  |
+| `malloc`                 | `pun`        |
+| `free`                   | `kái`        |
+| `true`                   | `tsin`       |
+| `false`                  | `ké`         |
+| `printf` `cout` `print` | `su_tshut`   |
+| `scanf` `cin` `input`   | `su_jip`     |
 
-[回到頂部](#台羅程式語言對照表)
+[回到頂部](#索引) · [回到 README](README.md)
 
 ---
 
