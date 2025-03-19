@@ -17,23 +17,20 @@ class ReturnValue(Exception):
         self.value = value
 
 # === 控制結構 ===
-def tsi(condition, true_func, false_func=None):
-    """模擬 if-elif-else"""
+def nā(condition, true_func, false_func=None):
     if condition:
         return true_func() if callable(true_func) else true_func
     elif false_func:
         return false_func() if callable(false_func) else false_func
 
-def iá(condition, true_func, false_func=None):
-    """模擬 elif"""
+def nā_bô(condition, true_func, false_func=None):
     return tsi(condition, true_func, false_func)
 
-def lú(true_func):
-    """模擬 else"""
+def bô(true_func):
     return true_func() if callable(true_func) else true_func
 
 # === 迴圈 ===
-def ko(iterable, func):
+def sûn_khuân(iterable, func):
     """模擬 for 迴圈"""
     for item in iterable:
         try:
@@ -43,7 +40,7 @@ def ko(iterable, func):
         except ContinueLoop:
             continue
 
-def thâu_lūn(condition_func, action_func):
+def tng(condition_func, action_func):
     """模擬 while 迴圈"""
     while condition_func():
         try:
@@ -53,16 +50,16 @@ def thâu_lūn(condition_func, action_func):
         except ContinueLoop:
             continue
 
-def soat_thâu():
+def thîng():
     """模擬 break"""
     raise BreakLoop()
 
-def khì_tshut():
+def kè_siòk():
     """模擬 continue"""
     raise ContinueLoop()
 
 # === 例外處理 ===
-def sióng_kì(try_func, except_func=None, finally_func=None):
+def nā_si_bô_hó_tō(try_func, except_func=None, finally_func=None):
     """模擬 try-except-finally"""
     try:
         try_func()
@@ -74,7 +71,7 @@ def sióng_kì(try_func, except_func=None, finally_func=None):
             finally_func()
 
 # === 函數與類別 ===
-def sái(func):
+def li_sī(func):
     """模擬 def（函數定義），並支援 return"""
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -84,33 +81,31 @@ def sái(func):
             return ret.value
     return wrapper
 
-def kòo(cls):
+def thióng(cls):
     """模擬 class"""
     return cls
 
-def huí_lai(value):
+def huê(value):
     """模擬 return，回傳值不拋出異常"""
     raise ReturnValue(value)
 
 # === 輸入輸出 ===
-def ìn_chhut(*args, **kwargs):
+def su_tshut(*args, **kwargs):
     """模擬 print"""
     print(*args, **kwargs)
 
-def tho̍k_tshíng(prompt):
+def su_jip(prompt):
     """模擬 input"""
     return input(prompt)
 
 # === 變數型別 ===
-su = int  # 模擬 int
-phoo = float  # 模擬 float
-ji = str  # 模擬 string
-khòng = None  # 模擬 None（類似於 void）
-tiong = int  # 模擬 long（在 Python 3 裡 long == int）
-sio = int  # 模擬 short
+tsê_thâu = int  # 模擬 int
+sòo = float  # 模擬 float
+jī = str  # 模擬 string
+khang = None  # 模擬 None（類似於 void）
 
 # === 記憶體管理（模擬 malloc/free）===
-def bīn_chhòng(size, dtype="char"):
+def pun(size, dtype="char"):
     """模擬 malloc，可分配不同類型的記憶體"""
     if dtype == "char":
         return ctypes.create_string_buffer(size)
@@ -123,4 +118,4 @@ def bīn_chhòng(size, dtype="char"):
 
 # === 布林值 ===
 tsin = True  # 模擬 True
-bô = False  # 模擬 False
+ké = False  # 模擬 False
