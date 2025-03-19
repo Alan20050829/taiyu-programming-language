@@ -60,6 +60,6 @@
 
 ---
 
-#### **本專案基於[ `MIT License` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/LICENSE)，自由開源！**
+#### **本專案基於[ `MIT License` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/LICENSE)，自由開源！歡迎所有人聯繫我提出修改建議 : *linjunxieng0829@gmail.com***
 
 
