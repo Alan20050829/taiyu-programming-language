@@ -18,15 +18,16 @@
 | `while`     | `tng` | C / C++ / Python |
 | `break`     | `thîng`| C / C++ / Python |
 | `continue`  | `kè_siòk` | C / C++ / Python |
-| `try`       | `nā_si` | C++ / Python |
-| `catch` / `except` | `bô_hó` | C++ / Python |
-| `throw` / `raise` | `tîng-tânn`   | C++ / Python |
-| `finally`    | `tng` | Python |
+| `try`       | `nā_si` | C++ |
+| `catch`  | `bô_hó` | C++ |
+| `throw` | `tîng-tânn`   | C++ |
+| `try-except-finally`    | `nā_si_bô_hó_tō` | Python |
 | `return`    | `huê`  | C / C++ / Python |
 | `class`     | `tsióng`      | C++ / Python |
 | `struct`    | `kiat_kòo`      | C |
 | `auto`      | `tsū-tōng`    | C++ |
 | `void`      | `khang`    | C / C++ |
+| `def`    | `li_sī` | Python |
 | `int`       | `tsê_thâu`       | C / C++ / Python |
 | `float`     | `sòo`     | C / C++ / Python |
 | `double`     | `tsún_sòo`     | C / C++ / Python |
@@ -35,11 +36,11 @@
 | `map`   | `tē_tôo` | C++ |
 | `set`   | `tsi̍p_hap` | C++ |
 | `malloc`    | `pun` | C / C++ / Python |
-| `free`    | `kái` | C / C++ / Python |
+| `free`    | `kái` | C / C++ |
 | `true`      | `tsin`     | C / C++ / Python |
 | `false`     | `ké`       | C / C++ / Python |
-| `printf` `cout`    | `su_tshut` | C / C++ / Python |
-| `scanf`    | `su_jip` | C / C++ / Python |
+| `printf` `cout` `print`   | `su_tshut` | C / C++ / Python |
+| `scanf` `cin` `input`  | `su_jip` | C / C++ / Python |
 
 
 ---
