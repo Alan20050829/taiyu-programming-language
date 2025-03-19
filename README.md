@@ -8,8 +8,7 @@
 1. C語言請下載 `taiyu_c.h` 
 2. C++請下載 `taiyu_cpp.hpp` 
 3. C++請下載 `taiyu_py.py` 
-### **🔹 你要下載壓縮檔也行，但檔案本來就很小**
-
+### **🔹 下載壓縮檔**
 🔹[壓縮.zip](https://github.com/Alan20050829/taiyu-programming-language/archive/refs/heads/main.zip)
 
 ---
