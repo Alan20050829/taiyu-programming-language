@@ -8,128 +8,136 @@
 
 ## 📝 **台羅語法對照表**
 
-<!-- 選擇語言按鈕 -->
-<button onclick="showTable('all')">顯示全部</button>
-<button onclick="showTable('python')">Python</button>
-<button onclick="showTable('c')">C</button>
-<button onclick="showTable('cpp')">C++</button>
+使用者可以選擇只檢索特定語言的對照表，或直接查看完整內容。
 
-<!-- 通用語法（所有語言通用） -->
-<table class="all">
-<thead>
-<tr>
-  <th>標準語法</th>
-  <th>台羅對應</th>
-  <th>適用語言</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>if</td><td>nā</td><td>C / C++ / Python</td></tr>
-<tr><td>else if / elif</td><td>nā_bô</td><td>C / C++ / Python</td></tr>
-<tr><td>else</td><td>bô</td><td>C / C++ / Python</td></tr>
-<tr><td>for</td><td>sûn_khuân</td><td>C / C++ / Python</td></tr>
-<tr><td>while</td><td>tng</td><td>C / C++ / Python</td></tr>
-<tr><td>break</td><td>thîng</td><td>C / C++ / Python</td></tr>
-<tr><td>continue</td><td>kè_siòk</td><td>C / C++ / Python</td></tr>
-<tr><td>return</td><td>huê</td><td>C / C++ / Python</td></tr>
-<tr><td>true</td><td>tsin</td><td>C / C++ / Python</td></tr>
-<tr><td>false</td><td>ké</td><td>C / C++ / Python</td></tr>
-<tr><td>print / printf / cout</td><td>su_tshut</td><td>C / C++ / Python</td></tr>
-<tr><td>input / scanf / cin</td><td>su_jip</td><td>C / C++ / Python</td></tr>
-</tbody>
-</table>
-
-<!-- Python 對照表 -->
-<table class="python">
-<thead>
-<tr>
-  <th>標準語法</th>
-  <th>台羅對應</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>try-except-finally</td><td>nā_si_bô_hó_tō</td></tr>
-<tr><td>def</td><td>li_sī</td></tr>
-<tr><td>int</td><td>tsê_thâu</td></tr>
-<tr><td>float</td><td>sòo</td></tr>
-<tr><td>double</td><td>tsún_sòo</td></tr>
-<tr><td>string</td><td>jī</td></tr>
-<tr><td>malloc</td><td>pun</td></tr>
-</tbody>
-</table>
-
-<!-- C 對照表 -->
-<table class="c">
-<thead>
-<tr>
-  <th>標準語法</th>
-  <th>台羅對應</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>switch</td><td>suán</td></tr>
-<tr><td>case</td><td>hîng</td></tr>
-<tr><td>default</td><td>ī_siat</td></tr>
-<tr><td>struct</td><td>kiat_kòo</td></tr>
-<tr><td>void</td><td>khang</td></tr>
-<tr><td>malloc</td><td>pun</td></tr>
-<tr><td>free</td><td>kái</td></tr>
-</tbody>
-</table>
-
-<!-- C++ 對照表 -->
-<table class="cpp">
-<thead>
-<tr>
-  <th>標準語法</th>
-  <th>台羅對應</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>try</td><td>nā_si</td></tr>
-<tr><td>catch</td><td>bô_hó</td></tr>
-<tr><td>throw</td><td>tîng-tânn</td></tr>
-<tr><td>class</td><td>tsióng</td></tr>
-<tr><td>auto</td><td>tsū-tōng</td></tr>
-<tr><td>vector</td><td>sò͘_tīn</td></tr>
-<tr><td>map</td><td>tē_tôo</td></tr>
-<tr><td>set</td><td>tsi̍p_hap</td></tr>
-</tbody>
-</table>
+- [🔍 Python 對照表](#python-對照表)
+- [🔍 C 對照表](#c-對照表)
+- [🔍 C++ 對照表](#c-對照表)
 
 ---
 
-## 📜 **使用方式**
-1. **在 C / C++ 程式中：**
-   ```c
-   #include "taiyu_c.h"  // C
-   #include "taiyu_cpp.hpp"  // C++
-   ```
+## 🔍 **完整對照表**
 
-2. **在 Python 程式中：**
-   ```python
-   from taiyu_py import *
-   ```
+| **標準語法** | **台羅對應** | **適用語言** |
+|-------------|-------------|--------------|
+| `if`        | `nā`       | C / C++ / Python |
+| `else if` / `elif` | `nā_bô`   | C / C++ / Python |
+| `else`      | `bô`       | C / C++ / Python |
+| `switch`    | `suán`     | C / C++ |
+| `case`      | `hîng`       | C / C++ |
+| `default`   | `ī_siat`     | C / C++ |
+| `for`       | `sûn_khuân`  | C / C++ / Python |
+| `while`     | `tng`  | C / C++ / Python |
+| `break`     | `thîng`  | C / C++ / Python |
+| `continue`  | `kè_siòk` | C / C++ / Python |
+| `return`    | `huê`  | C / C++ / Python |
+| `struct`    | `kiat_kòo`      | C |
+| `void`      | `khang`    | C / C++ |
+| `int`       | `tsê_thâu`       | C / C++ / Python |
+| `float`     | `sòo`     | C / C++ / Python |
+| `double`     | `tsún_sòo`     | C / C++ / Python |
+| `char*` / `string` | `jī` | C / C++ / Python |
+| `malloc`    | `pun` | C / C++ / Python |
+| `free`    | `kái` | C / C++ |
+| `true`      | `tsin`     | C / C++ / Python |
+| `false`     | `ké`       | C / C++ / Python |
+| `printf`    | `su_tshut` | C |
+| `scanf`     | `su_jip` | C |
+
+---
+
+## 🔍 **Python 對照表**
+
+| **標準語法** | **台羅對應** |
+|-------------|-------------|
+| `if`        | `nā` |
+| `elif`      | `nā_bô` |
+| `else`      | `bô` |
+| `for`       | `sûn_khuân` |
+| `while`     | `tng` |
+| `break`     | `thîng` |
+| `continue`  | `kè_siòk` |
+| `try-except-finally` | `nā_si_bô_hó_tō` |
+| `return`    | `huê` |
+| `def`       | `li_sī` |
+| `int`       | `tsê_thâu` |
+| `float`     | `sòo` |
+| `double`    | `tsún_sòo` |
+| `string`    | `jī` |
+| `malloc`    | `pun` |
+| `print`     | `su_tshut` |
+| `input`     | `su_jip` |
+
+---
+
+## 🔍 **C 對照表**
+
+| **標準語法** | **台羅對應** |
+|-------------|-------------|
+| `if`        | `nā` |
+| `else if`   | `nā_bô` |
+| `else`      | `bô` |
+| `switch`    | `suán` |
+| `case`      | `hîng` |
+| `default`   | `ī_siat` |
+| `for`       | `sûn_khuân` |
+| `while`     | `tng` |
+| `break`     | `thîng` |
+| `continue`  | `kè_siòk` |
+| `return`    | `huê` |
+| `struct`    | `kiat_kòo` |
+| `void`      | `khang` |
+| `int`       | `tsê_thâu` |
+| `float`     | `sòo` |
+| `double`    | `tsún_sòo` |
+| `char*` / `string` | `jī` |
+| `malloc`    | `pun` |
+| `free`      | `kái` |
+| `true`      | `tsin` |
+| `false`     | `ké` |
+| `printf`    | `su_tshut` |
+| `scanf`     | `su_jip` |
+
+---
+
+## 🔍 **C++ 對照表**
+
+| **標準語法** | **台羅對應** |
+|-------------|-------------|
+| `if`        | `nā` |
+| `else if`   | `nā_bô` |
+| `else`      | `bô` |
+| `switch`    | `suán` |
+| `case`      | `hîng` |
+| `default`   | `ī_siat` |
+| `for`       | `sûn_khuân` |
+| `while`     | `tng` |
+| `break`     | `thîng` |
+| `continue`  | `kè_siòk` |
+| `try`       | `nā_si` |
+| `catch`     | `bô_hó` |
+| `throw`     | `tîng-tânn` |
+| `return`    | `huê` |
+| `class`     | `tsióng` |
+| `auto`      | `tsū-tōng` |
+| `void`      | `khang` |
+| `int`       | `tsê_thâu` |
+| `float`     | `sòo` |
+| `double`    | `tsún_sòo` |
+| `char*` / `string` | `jī` |
+| `vector`    | `sò͘_tīn` |
+| `map`       | `tē_tôo` |
+| `set`       | `tsi̍p_hap` |
+| `malloc`    | `pun` |
+| `free`      | `kái` |
+| `true`      | `tsin` |
+| `false`     | `ké` |
+| `cout`      | `su_tshut` |
+| `cin`       | `su_jip` |
 
 ---
 
 ## 📜 **專案資訊**
 本專案基於 [`MIT License`](https://github.com/Alan20050829/taiyu-programming-language/blob/main/LICENSE)，自由開源！  
 歡迎所有人聯繫我提出修改建議 📧 *linjunxieng0829@gmail.com*
-
----
-
-<!-- JavaScript 動態切換表格 -->
-<script>
-function showTable(language) {
-    var tables = document.querySelectorAll('table');
-    tables.forEach(table => {
-        if (language === 'all' || table.classList.contains(language)) {
-            table.style.display = 'table';
-        } else {
-            table.style.display = 'none';
-        }
-    });
-}
-</script>
 
