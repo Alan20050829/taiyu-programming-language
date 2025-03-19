@@ -8,31 +8,35 @@
 
 | **標準語法** | **台羅對應** | **適用語言** |
 |-------------|-------------|--------------|
-| `if`        | `tsi`       | C / C++ / Python |
-| `else if` / `elif` | `iá`   | C / C++ / Python |
-| `else`      | `lú`       | C / C++ / Python |
-| `switch`    | `ting`     | C / C++ |
-| `case`      | `ka`       | C / C++ |
-| `default`   | `piàn`     | C / C++ |
-| `for`       | `ko`       | C / C++ / Python |
-| `while`     | `thâu_lūn` | C / C++ / Python |
-| `break`     | `soat_thâu`| C / C++ / Python |
-| `continue`  | `khì_tshut` | C / C++ / Python |
-| `try`       | `sióng_kì` | C++ / Python |
+| `if`        | `nā`       | C / C++ / Python |
+| `else if` / `elif` | `nā_bô`   | C / C++ / Python |
+| `else`      | `bô`       | C / C++ / Python |
+| `switch`    | `suán`     | C / C++ |
+| `case`      | `hîng`       | C / C++ |
+| `default`   | `ī_siat`     | C / C++ |
+| `for`       | `sûn_khuân`       | C / C++ / Python |
+| `while`     | `tng` | C / C++ / Python |
+| `break`     | `thîng`| C / C++ / Python |
+| `continue`  | `kè_siòk` | C / C++ / Python |
+| `try`       | `nā_si` | C++ / Python |
 | `catch` / `except` | `bô_hó` | C++ / Python |
 | `finally`   | `tōa_mā`   | C++ / Python |
-| `return`    | `huí_lai`  | C / C++ / Python |
-| `print` / `cout` | `ìn_chhut` | C / C++ / Python |
+| `return`    | `huê`  | C / C++ / Python |
+| `print` / `cout` | `ìn_chhut` | C++ / Python |
 | `input` / `cin` | `tho̍k_tshíng` | C++ / Python |
 | `class`     | `kòo`      | C++ / Python |
-| `struct`    | `kòo`      | C |
-| `void`      | `khòng`    | C / C++ |
-| `int`       | `su`       | C / C++ / Python |
-| `float`     | `phoo`     | C / C++ / Python |
-| `char*` / `string` | `ji` | C / C++ / Python |
-| `malloc`    | `bīn_chhòng` | C / C++ / Python |
+| `struct`    | `kiat_kòo`      | C |
+| `void`      | `khang`    | C / C++ |
+| `int`       | `tsê_thâu`       | C / C++ / Python |
+| `float`     | `sòo`     | C / C++ / Python |
+| `double`     | `tsún_sòo`     | C / C++ / Python |
+| `char*` / `string` | `jī` | C / C++ / Python |
+| `malloc`    | `pun` | C / C++ / Python |
+| `free`    | `kái` | C / C++ / Python |
 | `true`      | `tsin`     | C / C++ / Python |
-| `false`     | `bô`       | C / C++ / Python |
+| `false`     | `ké`       | C / C++ / Python |
+| `printf`    | `su_tshut` | C / C++ / Python |
+| `scanf`    | `su_jip` | C / C++ / Python |
 
 ---
 
