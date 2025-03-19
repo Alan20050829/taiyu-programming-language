@@ -1,7 +1,8 @@
 # 📜 台羅程式語言對照表
-## [回到README](README.md)
 
-### 本對照表提供 C、C++、Python 三種語言的台羅語法對應，讓開發者可以快速查閱。
+## [回到 README](README.md)
+
+### 本對照表提供 **C、C++、Python** 三種語言的台羅語法對應，讓開發者可以快速查閱。
 
 ---
 
@@ -43,23 +44,30 @@
 | `printf` `cout` `print`   | `su_tshut` | C / C++ / Python |
 | `scanf` `cin` `input`  | `su_jip` | C / C++ / Python |
 
+---
+
+### **選擇特定語言查看完整對照表**
+- [🔍 查看 Python 對照表](taiyu_python.md)
+- [🔍 查看 C 對照表](taiyu_c.md)
+- [🔍 查看 C++ 對照表](taiyu_cpp.md)
 
 ---
 
 ## 📜 **使用方式**
-1. 在 C / C++ 程式中：
+1. **在 C / C++ 程式中：**
    ```c
    #include "taiyu_c.h"  // C
    #include "taiyu_cpp.hpp"  // C++
    ```
 
-2. 在 Python 程式中：
+2. **在 Python 程式中：**
    ```python
    from taiyu_py import *
    ```
 
 ---
 
-#### **本專案基於[ `MIT License` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/LICENSE)，自由開源！歡迎所有人聯繫我提出修改建議 : *linjunxieng0829@gmail.com***
-
+## 📜 **專案資訊**
+本專案基於 [`MIT License`](https://github.com/Alan20050829/taiyu-programming-language/blob/main/LICENSE)，自由開源！  
+歡迎所有人聯繫我提出修改建議 📧 *linjunxieng0829@gmail.com*
 
