@@ -50,7 +50,7 @@ function renderTable(language) {
   let tables = {
     "all": `
 <h2>📜 整合對照表</h2>
-<table>
+<table border="1">
 <tr><th>標準語法</th><th>台羅對應</th><th>適用語言</th></tr>
 <tr><td>if</td><td>nā</td><td>C / C++ / Python</td></tr>
 <tr><td>else if / elif</td><td>nā_bô</td><td>C / C++ / Python</td></tr>
@@ -71,7 +71,7 @@ function renderTable(language) {
     `,
     "python": `
 <h2>🐍 Python 語法對照表</h2>
-<table>
+<table border="1">
 <tr><th>標準語法</th><th>台羅對應</th></tr>
 <tr><td>if</td><td>nā</td></tr>
 <tr><td>elif</td><td>nā_bô</td></tr>
@@ -86,7 +86,7 @@ function renderTable(language) {
     `,
     "c": `
 <h2>💻 C 語法對照表</h2>
-<table>
+<table border="1">
 <tr><th>標準語法</th><th>台羅對應</th></tr>
 <tr><td>if</td><td>nā</td></tr>
 <tr><td>else if</td><td>nā_bô</td></tr>
