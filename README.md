@@ -7,7 +7,7 @@
 ### **直接下載對應檔案**
 1. **C語言請下載taiyu_c.h**
 2. **C++請下載taiyu_cpp.hpp**
-3. **C++請下載taiyu_cpp.hpp**Python請下載taiyu_py.py**
+3. **C++請下載taiyu_cpp.hpp**
 
 ---
 
