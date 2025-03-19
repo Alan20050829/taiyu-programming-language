@@ -5,7 +5,7 @@
 
 ## 🛠️ **下載與使用**
 ### **🔹 直接下載對應檔案**
-> 1. C語言請下載 `taiyu_c.h` 
+> 1. C語言請下載[ `taiyu_c.h` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/taiyu_c.h)
 > 2. C++請下載 `taiyu_cpp.hpp` 
 > 3. C++請下載 `taiyu_py.py` 
 ### **🔹 下載壓縮檔**
