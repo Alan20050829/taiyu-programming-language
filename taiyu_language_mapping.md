@@ -31,7 +31,6 @@
 | `float`     | `phoo`     | C / C++ / Python |
 | `char*` / `string` | `ji` | C / C++ / Python |
 | `malloc`    | `bīn_chhòng` | C / C++ / Python |
-| `free`      | `phoa_free` | C / C++ / Python |
 | `true`      | `tsin`     | C / C++ / Python |
 | `false`     | `bô`       | C / C++ / Python |
 
