@@ -54,7 +54,7 @@
 | `printf` `cout` `print` | `su_tshut`         | C / C++ / Python       |
 | `scanf` `cin` `input`   | `su_jip`           | C / C++ / Python       |
 
-[回到頂部](#索引)
+[回到頂部](#索引) · [回到 README](README.md)
 
 ---
 
