@@ -5,46 +5,45 @@
 #include <stdlib.h>
 
 // === 控制結構 ===
-#define tsi if             
-#define lú else            
-#define iá else if         
-#define ting switch        
-#define ka case           
-#define piàn default      
+#define nā if             
+#define bô else            
+#define nā_bô else if         
+#define suán switch        
+#define hîng case           
+#define ī_siat default      
 
 // === 迴圈 ===
-#define thâu_lūn while     
-#define ko for             
-#define soat_thâu break    
-#define khì_tshut continue 
+#define tng while     
+#define sûn_khuân for             
+#define thîng break    
+#define kè-siòk continue 
 
 // === 例外處理（C 模擬 try-catch）===
 #include <setjmp.h>
 jmp_buf taiyu_exception;
-#define sióng_kì if (!setjmp(taiyu_exception)) 
+#define nā_sī if (!setjmp(taiyu_exception)) 
 #define bô_hó else 
-#define tōa_mā longjmp(taiyu_exception, 1) 
+#define thiàu longjmp(taiyu_exception, 1) 
 
-// === 函數、型別與返回 ===
-#define sái void 
-#define khòng void 
-#define huí_lai return 
-#define kòo struct 
+// === 函數、型別與返回 === 
+#define khang void 
+#define huê return 
+#define kiat_kòo struct 
 
 // === 變數型別 ===
-#define su int             
-#define phoo float         
-#define tua double         
-#define ji char*           
-#define tsin 1             
-#define bô 0               
+#define tsê_thâu int             
+#define sòo float         
+#define tsún_sòo double         
+#define jī char*           
+#define tsin true             
+#define ké false               
 
 // === 輸入輸出 ===
-#define ìn_chhut printf    
-#define tho̍k_tshíng scanf 
-#define tsêng_hāi "\n"    
+#define su_tshut printf    
+#define su_jìp scanf 
 
-// === 記憶體管理（保留 malloc 和 free 原始名稱）===
-#define bīn_chhòng malloc  
+// === 記憶體管理 ===
+#define pun malloc
+#define kái free  
 
 #endif // TAIYU_C_H
