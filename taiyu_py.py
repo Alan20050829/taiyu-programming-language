@@ -121,10 +121,6 @@ def bīn_chhòng(size, dtype="char"):
     else:
         raise ValueError("未知的記憶體類型")
 
-def phoa_free(ptr):
-    """模擬 free - 釋放記憶體"""
-    del ptr
-
 # === 布林值 ===
 tsin = True  # 模擬 True
 bô = False  # 模擬 False
