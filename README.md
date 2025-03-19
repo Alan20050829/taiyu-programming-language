@@ -9,7 +9,7 @@
 2. C++請下載 `taiyu_cpp.hpp` 
 3. C++請下載 `taiyu_py.py` 
 ### **🔹 下載壓縮檔**
- **[壓縮.zip](https://github.com/Alan20050829/taiyu-programming-language/archive/refs/heads/main.zip) **
+ [壓縮.zip](https://github.com/Alan20050829/taiyu-programming-language/archive/refs/heads/main.zip) 
 
 ---
 ## 🔗 **台羅語法對照表**
