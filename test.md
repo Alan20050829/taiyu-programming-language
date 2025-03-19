@@ -1,35 +1,21 @@
-# 台羅程式語言對照表 (JS Demo in .md)
+# 台羅程式語言對照表
 
 [回到 README](README.md)
 
 本對照表提供 **C、C++、Python** 三種語言的台羅語法對應，讓開發者可以快速查閱。
 
-> ⚠ **注意：** GitHub 原生 `.md` 不允許執行 JavaScript。如果要在 GitHub Pages 或其他可執行 HTML 的環境下使用，可將此檔案放到能解析 HTML/JS 的 Markdown 解析器上。
-
 ---
 
-<!-- 按鈕列，點擊可切換顯示對應語言的表格 -->
-<div style="margin-bottom: 1rem;">
-  <button onclick="showTable('index-section')">索引</button>
-  <button onclick="showTable('all-table')">整合對照表</button>
-  <button onclick="showTable('python-table')">Python</button>
-  <button onclick="showTable('c-table')">C</button>
-  <button onclick="showTable('cpp-table')">C++</button>
-</div>
-
-<!-- 預設：顯示「索引」區塊 -->
-<div id="index-section" class="view-section" style="display: block;">
 ## 索引
 - [整合對照表](#整合對照表)
 - [Python 語法對照表](#python-語法對照表)
 - [C 語法對照表](#c-語法對照表)
-- [C++ 語法對照表](#c-語法對照表)
+- [C++ 語法對照表](#c-plusplus-語法對照表)
 - [使用方式](#使用方式)
 - [專案資訊](#專案資訊)
-</div>
 
-<!-- 整合對照表 -->
-<div id="all-table" class="view-section" style="display: none;">
+---
+
 ## 整合對照表
 
 | **標準語法**             | **台羅對應**       | **適用語言**           |
@@ -69,10 +55,9 @@
 | `scanf` `cin` `input`   | `su_jip`           | C / C++ / Python       |
 
 [回到頂部](#索引)
-</div>
 
-<!-- Python 表格 -->
-<div id="python-table" class="view-section" style="display: none;">
+---
+
 ## Python 語法對照表
 
 以下僅列出「適用語言」欄位包含 Python 的語法：
@@ -100,12 +85,10 @@
 | `printf` `cout` `print` | `su_tshut`   | <!-- also C / C++ -->
 | `scanf` `cin` `input`   | `su_jip`     | <!-- also C / C++ -->
 
-[回到頂部](#索引)  
-[回到 README](README.md)
-</div>
+[回到頂部](#索引) · [回到 README](README.md)
 
-<!-- C 表格 -->
-<div id="c-table" class="view-section" style="display: none;">
+---
+
 ## C 語法對照表
 
 以下僅列出「適用語言」欄位包含 C 的語法：
@@ -136,13 +119,11 @@
 | `printf`     | `su_tshut`   |
 | `scanf`      | `su_jip`     |
 
-[回到頂部](#索引)  
-[回到 README](README.md)
-</div>
+[回到頂部](#索引) · [回到 README](README.md)
 
-<!-- C++ 表格 -->
-<div id="cpp-table" class="view-section" style="display: none;">
-## C++ 語法對照表
+---
+
+## C-plusplus 語法對照表
 
 以下僅列出「適用語言」欄位包含 C++ 的語法：
 
@@ -179,15 +160,25 @@
 | `printf` `cout` `print` | `su_tshut`   |
 | `scanf` `cin` `input`   | `su_jip`     |
 
-[回到頂部](#索引)  
-[回到 README](README.md)
-</div>
+[回到頂部](#索引) · [回到 README](README.md)
 
 ---
 
 ## 使用方式
 
 1. 在 C / C++ 程式中：
-   ```c
-   #include "taiyu_c.h"  // C
-   #include "taiyu_cpp.hpp"  // C++
+```c
+#include "taiyu_c.h"  // C
+#include "taiyu_cpp.hpp"  // C++
+```
+
+2. 在 Python 程式中：
+```python
+from taiyu_py import *
+```
+
+---
+
+## 專案資訊
+本專案基於 [`MIT License`](https://github.com/Alan20050829/taiyu-programming-language/blob/main/LICENSE)，自由開源！
+歡迎所有人聯繫我提出修改建議 📧 *linjunxieng0829@gmail.com*
