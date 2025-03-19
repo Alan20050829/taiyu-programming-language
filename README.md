@@ -12,7 +12,7 @@
 ---
 ## 🔗 **台羅語法對照表**
 
-完整的台羅語法對應表請參考：[台羅程式語言對照表](thttps://github.com/Alan20050829/taiyu-programming-language/blob/main/%E5%8F%B0%E7%BE%85%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80%E5%B0%8D%E7%85%A7%E8%A1%A8.mdaiyu_language_mapping)
+完整的台羅語法對應表請參考：[台羅程式語言對照表](https://github.com/Alan20050829/taiyu-programming-language/blob/main/%E5%8F%B0%E7%BE%85%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80%E5%B0%8D%E7%85%A7%E8%A1%A8.mdaiyu_language_mapping)
 
 
 ---
