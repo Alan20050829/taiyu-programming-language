@@ -51,5 +51,6 @@
 
 ---
 
-歡迎提供改進建議！信箱:linjunxieng0829@gmail.com
+本專案基於 `MIT License`，自由開源！也歡迎所有人聯繫我提出修改建議:linjunxieng0829@gmail.com
+
 
