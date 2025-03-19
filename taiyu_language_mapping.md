@@ -1,5 +1,5 @@
 # 📜 台羅程式語言對照表
-## [回到Readme](Readme.md)
+## [回到README](README.md)
 
 本對照表提供 C、C++、Python 三種語言的台羅語法對應，讓開發者可以快速查閱。
 
