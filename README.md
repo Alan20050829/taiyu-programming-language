@@ -5,9 +5,9 @@
 
 ## 🛠️ **下載與使用**
 ### **🔹 直接下載對應檔案**
-> 1. #### [C語言請下載 `taiyu_c.h` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/taiyu_c.h)
-> 2. #### [C++請下載 `taiyu_cpp.hpp` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/taiyu_cpp.hpp)
-> 3. #### [Python請下載 `taiyu_py.py` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/taiyu_py.py)
+> 1. #### C語言請下載[ `taiyu_c.h` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/taiyu_c.h)
+> 2. #### C++請下載[ `taiyu_cpp.hpp` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/taiyu_cpp.hpp)
+> 3. #### Python請下載[ `taiyu_py.py` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/taiyu_py.py)
 ### **🔹 下載壓縮檔**
 > #### [壓縮.zip](https://github.com/Alan20050829/taiyu-programming-language/archive/refs/heads/main.zip)
 
