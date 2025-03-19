@@ -42,11 +42,6 @@
 ---
 
 ## 📜 **版權**
-本專案基於 `MIT License`，自由開源！也歡迎所有人聯繫式語言模組 (`taiyu-programming-language`)
-
----
-
-## 📜 **版權**
 本專案基於 `MIT License`，自由開源！也歡迎所有人聯繫我提出修改建議:linjunxieng0829@gmail.com
 
 
