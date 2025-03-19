@@ -47,7 +47,7 @@
 ---
 
 ## 📜 **疑難排解**
-1. #### **本專案基於 `MIT License`，自由開源！**
+1. #### **本專案基於[ `MIT License` ](https://github.com/Alan20050829/taiyu-programming-language/blob/main/LICENSE)，自由開源！**
 2. #### **你要怎麼在電腦上快速打出台羅?**  
    我也不知道。  
 3. #### **為什麼python的功能這麼少?**  
