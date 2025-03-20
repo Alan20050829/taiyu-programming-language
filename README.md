@@ -1,4 +1,4 @@
-# 📜 台羅程式語言模組 (`taiyu-programming-language`)
+# 📜 台羅程式語言模組
 ### 🚀 C、C++、Python的台羅模組，純粹做好玩的，本人並非台羅使用者
 
 ---
